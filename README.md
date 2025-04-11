@@ -1,6 +1,9 @@
 # Lung Disease Prediction API
 This FastAPI application deploys a machine learning model to predict lung disease risk levels ("Low", "Medium", or "High") based on 23 patient features, such as age, gender, air pollution exposure, and symptoms. The model is trained on a dataset of patient records and exposed via a RESTful API.
 
+## Dataset
+The model is trained on the [Cancer Patients and Air Pollution Dataset](https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link) from Kaggle, which includes patient records with features like air pollution exposure, smoking habits, and symptoms to predict lung disease risk levels.
+
 ## Features
 - Predicts lung disease risk using a pre-trained scikit-learn model.
 - Accepts JSON input with 23 integer features (e.g., Age, Air_Pollution).
